@@ -1,233 +1,576 @@
-# CO-DNA — AI-Powered Technical Debt Intelligence Platform
+# 🧬 CO-DNA — AI-Powered Technical Debt Intelligence Platform
 
-> **Kill technical debt — from inside your editor.**
+### 🚀 Kill Technical Debt — From Inside Your Editor
 
-[![VS Code Extension](https://img.shields.io/badge/VS%20Code-Extension-1a1aff?style=flat-square&logo=visual-studio-code)](https://marketplace.visualstudio.com)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org)
-[![Node.js](https://img.shields.io/badge/Node.js-18+-green?style=flat-square&logo=node.js)](https://nodejs.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Beta-orange?style=flat-square)]()
+[![Hackathon](https://img.shields.io/badge/HACK'A'WAR-2026-blue)]()
+[![AI Powered](https://img.shields.io/badge/AI-Hybrid_Model-purple)]()
+[![Platform](https://img.shields.io/badge/Platform-VS_Code-blue)]()
 
 ---
 
-## The Problem
+# 🚨 The Problem
 
-Technical debt is invisible — but extremely expensive.
+Technical debt is **invisible but expensive**.
 
-| Metric | Reality |
-|---|---|
-| Developer time wasted | **33%** spent managing debt |
-| Annual cost per enterprise | **Millions** in lost productivity |
-| Security risks | Go unnoticed until it's too late |
-| Leadership visibility | Near zero — no business-level metrics |
+- ⏱️ **33% developer time wasted**
+- 💸 Millions lost annually
+- 🧠 Complex systems = zero clarity
+- 👁️ CEOs lack visibility
+- 🔐 Security risks go unnoticed
 
-Teams cannot **measure**, **prioritize**, or **communicate** technical debt effectively. CO-DNA fixes that.
-
----
-
-## What is CO-DNA?
-
-CO-DNA is an **AI-powered VS Code extension + backend intelligence system** that:
-
-- ✅ Quantifies technical debt in real money (**$**)
-- ✅ Detects security vulnerabilities in **real-time**
-- ✅ Explains and visualizes code like a **senior engineer**
-- ✅ Suggests modern rewrites and **optimizations**
-- ✅ Bridges developer insights → **business decisions**
+> ❌ Teams cannot **measure**, **prioritize**, or **communicate** technical debt.
 
 ---
 
-## Core Capabilities
+# 💡 The Solution — CO-DNA
 
-### 🔍 Technical Debt Scanner
-AST-based static analysis that detects complexity, code duplication, and anti-patterns.
+## 🧠 AI + Static Analysis + Security Intelligence
 
-**Outputs:**
-- Weighted Debt Score (0–100)
-- Dollar cost estimation
-- Prioritized refactoring roadmap
+CO-DNA is a **full-stack AI system** that:
 
-### 🔐 Security Intelligence
-Real-time alerts for:
-- Hardcoded secrets and API keys
-- SQL injection vulnerabilities
-- Unsafe patterns (`eval`, dynamic execution)
-- Vulnerable dependencies (CVE matching)
-
-### 🧠 AI Code Understanding
-Powered by Claude & Gemini APIs. Generates:
-- Plain-English function summaries
-- Flow diagrams and architecture insights
-- Inline explanations on demand
-
-### ⚡ Code Modernization
-Converts legacy patterns to modern equivalents — improving readability, performance, and long-term maintainability.
-
-### 🔁 Code Rewrite Engine
-Rewrites entire modules, optimizing for:
-- Performance
-- Security posture
-- Structure and readability
-
-### 🌍 Code Translator
-Converts code across languages (Python → TypeScript, Java → Go, etc.) while preserving full logic and structure.
+✔ Quantifies technical debt in **real money ($)**  
+✔ Detects **security vulnerabilities in real-time**  SUCH AS DOWNLOADINHG OF MALICIOUR VIRUS, OR DEPENDENCIES(NOTIFIES)
+✔ Visualizes **entire system architecture**          HELP DEVLOPERS TO KNOW WT THEY ARE CODING FOR, FOR OPTIMAL CODING IN PERSONAL AND COMPANY
+✔ Provides **CEO-level + Developer-level insights**  CEO WILL GET A REPORT OF HOW THEIR CODEBASE IS AND SEE HOW WELL THE COMPANY IS PERFORMING 
+✔ Suggests **optimal rewrites & modern implementations**  
 
 ---
 
-## Business Intelligence Layer
 
-CO-DNA speaks both **developer** and **business** — the only tool that translates code quality into dollar impact.
 
-**For Developers:**
-- Fix suggestions with exact remediation steps
-- Inline code explanations on hover
-- Real-time security alerts in the editor
+🚀 Core Features
+Feature	Description
+🔍 Debt Scanner	Detects complexity, duplication, anti-patterns
+🔐 Security Scanner	Detects API leaks, vulnerabilities, unsafe code
+🧠 AI Explainer	Explains code in plain English
+⚡ Code Modernizer	Converts legacy → modern
+🔄 Full Rewrite	Rewrites entire codebase optimally
+🌍 Code Translator	Converts between languages
+📊 Visual Diagrams	Architecture + logic flow
+💰 Business Impact	Converts tech debt → cost
 
-**For Engineering Managers:**
-- Cost of debt in real dollar estimates
-- Productivity impact per module
-- Risk visibility across the entire codebase
+## 🔍 1. Technical Debt Scanner
 
-### CO-DNA vs Traditional Tools
+- AST-based analysis  
+- Detects:
+  - Complexity
+  - Duplication
+  - Anti-patterns
+  - Poor architecture
 
-| Capability | Traditional Tools | CO-DNA |
-|---|---|---|
-| Output type | Code issue list | 💰 Business impact in dollars |
-| Analysis method | Static metrics only | 🧠 AI reasoning + static analysis |
-| Audience | Developers only | 👨‍💻 Dev + 🧑‍💼 Management |
-| Security | Separate tool required | ✅ Built-in, real-time alerts |
-| Prioritization | Manual, subjective | 🤖 Cost-weighted, automated |
+### 📊 Output:
+- Spaghetti Score
+- Complexity Metrics
+- 💰 Business Cost Estimation
 
 ---
 
-## Architecture
+## 🔐 2. Security Intelligence Engine
+
+> 💣 **Real-time vulnerability detection**
+
+Detects:
+
+- Hardcoded API keys 🔴  
+- Password leaks 🔴  
+- SQL Injection risks 🔴  
+- `eval()` usage 🔴  
+- Unsafe dependencies 🔴  
+
+### 🧠 Bonus:
+- Detects **malicious / compromised packages**
+- Alerts based on **current threat intelligence**
+
+---
+
+## 🧠 3. AI Code Understanding
+
+- Explains code like a **senior engineer**
+- Generates:
+  - Simple explanations
+  - Flowcharts
+  - Architecture diagrams
+
+---
+
+## ⚡ 4. Code Modernization Engine
+
+- Converts legacy → modern
+- Examples:
+  - Callbacks → async/await
+  - Old JS → ES6+
+  - Bad patterns → best practices
+
+---
+
+## 🔁 5. Full Code Rewrite Engine
+
+> 💣 **One-click system upgrade**
+
+- Rewrites entire codebase optimally
+- Improves:
+  - Performance
+  - Readability
+  - Security
+
+---
+
+## 🌍 6. Multi-Language Translator
+
+- Convert code across languages
+- Suggests **best language for use-case**
+
+---
+
+## 🏢 7. Business Intelligence Layer
+
+### For CEOs / Managers:
+
+- 💰 Cost of technical debt
+- 📉 Productivity loss
+- 📊 Risk level
+- 📍 Where system is failing
+
+### For Developers:
+
+- 🔧 Fix plan
+- 🧠 Explanation
+- 📈 Priority roadmap
+
+---
+
+# 🧠 Dual Model Architecture (KEY INNOVATION)
+
+```mermaid
+flowchart LR
+    A[User Code] --> B{Model Selector}
+
+    B --> C[Low-Level Model ⚡]
+    B --> D[High-Level AI Model 🧠]
+
+    C --> E[Fast Static Analysis]
+    D --> F[Deep AI Reasoning]
+
+    E --> G[Basic Insights]
+    F --> H[Advanced Insights]
+
+    G --> I[Final Report]
+    H --> I
 
 ```
 User (VS Code)
-      │
-      ▼
-Extension UI (React Webview)
-      │
-      ▼
+      ↓
+Extension (Frontend + Webview UI)
+      ↓
 Backend API (Node.js / Express)
-      │
-      ▼
-  ┌───┴───┐
-  │ Model │
-  │Selector│
-  └───┬───┘
-      │
- ┌────┴─────┐
- │          │
- ▼          ▼
-Low-Level   High-Level
- Model       AI Model
-(Static     (LLM Reasoning:
-Analysis)    Claude / Gemini)
- │          │
- ▼          ▼
-Metrics   Insights +
-+ Scores  Suggestions
-      │
-      ▼
-Final Intelligence Report
-(Rendered in VS Code Webview)
-```
-
-**Design principle:** Lightweight static analysis handles metrics at speed; the high-level AI model handles reasoning and language-level insights. The Model Selector routes each task to the right engine automatically.
-
----
-
-## Scoring Logic
-
-All metrics are transparent and auditable — no black-box scoring.
-
-```
-Complexity   = 1 + Σ(decision points in function)
-
-ETA          = (Lines of Code / 50) × ComplexityFactor
-
-Cost         = ETA × DeveloperRate × RiskFactor
-
-Debt Score   = Normalize(Complexity + Duplication + Maintainability)
-               → Range: 0 (clean) to 100 (critical)
+      ↓
+AI Layer (LLMs + Custom Models)
+      ↓
+Analysis Engine (AST + Metrics)
 ```
 
 ---
 
-## Project Structure
+# 🧩 Project Structure
 
 ```
-co-dna/                              # Root repository
+co-dna/
 │
-├── co-dna/                          # VS Code Extension
+├── co-dna/                     # VS Code Extension
 │   ├── src/
-│   │   ├── extension.ts             # Activation entrypoint
-│   │   ├── analyzer.ts              # AST-based scanner
-│   │   └── commands/                # Registered VS Code commands
-│   ├── webview/                     # React-based panel UI
-│   │   ├── DebtReport.tsx
-│   │   ├── SecurityPanel.tsx
-│   │   └── ExplainView.tsx
-│   └── dist/                        # Compiled output
+│   ├── webview/               # React UI
+│   └── dist/
 │
-├── debtsight-backend/               # Backend API — Node.js / Express
-│   ├── routes/                      # /analyze, /explain, /rewrite
+├── debtsight-backend/         # Main Backend API (Node.js)
+│   ├── routes/
 │   ├── services/
-│   │   ├── debtService.ts
-│   │   ├── securityService.ts
-│   │   └── aiService.ts
-│   └── controllers/                 # Request handlers
+│   └── controllers/
 │
-├── model-low-level/                 # Static analysis engine
-│   ├── astParser.ts
-│   ├── complexityScorer.ts
-│   └── duplicationDetector.ts
+├── model-low-level/           # Fast, lightweight analysis
+│   ├── static analysis
+│   └── rule-based scoring
 │
-├── model-high-level/                # AI reasoning layer
-│   ├── promptBuilder.ts             # Prompt engineering
-│   ├── geminiAdapter.ts
-│   └── claudeAdapter.ts
+├── model-high-level/          # Advanced AI reasoning
+│   ├── LLM prompts
+│   └── deep code understanding
 │
-├── website-launch/                  # Landing page
-└── assets/                          # Screenshots & visuals
+├── website-launch/            # Landing page / product site
+│   ├── frontend
+│   └── marketing assets
 ```
 
 ---
+---System Architecture
+flowchart TD
+    A[👨‍💻 Developer / User] --> B[VS Code Extension UI]
+    B --> C[Backend API Layer]
+    C --> D[Analysis Engine]
+    C --> E[Security Engine]
+    C --> F[AI Engine]
 
-## Tech Stack
+    D --> G[Technical Debt Metrics]
+    E --> H[Security Report]
+    F --> I[AI Insights]
 
-**Extension / Frontend**
-- VS Code Extension API
-- TypeScript
-- React (Webview UI)
-- Tailwind CSS
+    G --> J[Final Intelligence Report]
+    H --> J
+    I --> J
 
-**Backend**
-- Node.js 18+
-- Express
-- TypeScript
+    J --> K[📊 Visual Dashboard]
 
-**AI Layer**
-- Claude API (Anthropic)
-- Gemini API (Google)
-- Prompt Engineering
-- Hybrid Model Design (static + LLM)
+    
+⚡ Dual Model Intelligence
+flowchart LR
+    A[📥 Input Code] --> B{Model Selector}
+
+    B --> C[⚡ Low-Level Model]
+    B --> D[🧠 High-Level Model]
+
+    C --> E[Static Analysis]
+    C --> F[Rule-Based Scoring]
+
+    D --> G[AI Reasoning]
+    D --> H[Deep Code Understanding]
+
+    E --> I[Basic Insights]
+    F --> I
+
+    G --> J[Advanced Insights]
+    H --> J
+
+    I --> K[📊 Final Report]
+    J --> K
+
+
+    
+🔐 Security Intelligence Engine
+flowchart TD
+    A[🔍 Code Scan] --> B[Pattern Detection Engine]
+
+    B --> C{Hardcoded Secrets?}
+    B --> D{Unsafe Functions?}
+    B --> E{Dependency Risk?}
+
+    C -->|Yes| F[🔴 Critical Alert]
+    D -->|Yes| F
+    E -->|Yes| F
+
+    C -->|No| G[🟢 Safe]
+    D -->|No| G
+    E -->|No| G
+
+    F --> H[Security Score ↓]
+    G --> H
+
+    H --> I[🔐 Final Security Report]
+
+
+    
+📊 Technical Debt Pipeline
+flowchart TD
+    A[📥 Code Input] --> B[AST Parsing]
+
+    B --> C[Complexity Analysis]
+    B --> D[Duplication Detection]
+    B --> E[Code Smell Detection]
+
+    C --> F[Complexity Score]
+    D --> G[Duplication %]
+    E --> H[Issues List]
+
+    F --> I[Spaghetti Score]
+    G --> I
+    H --> I
+
+    I --> J[💰 Business Cost Estimation]
+
+
+    
+📦 Dependency & Threat Intelligence
+flowchart TD
+    A[📦 Dependencies List] --> B[Version Analysis]
+
+    B --> C{Outdated?}
+    B --> D{Vulnerable?}
+    B --> E{Malicious Pattern?}
+
+    C -->|Yes| F[⚠️ Warning]
+    D -->|Yes| G[🔴 Vulnerability]
+    E -->|Yes| H[💣 Threat Alert]
+
+    C -->|No| I[🟢 Safe Dependency]
+    D -->|No| I
+    E -->|No| I
+
+    F --> J[Dependency Risk Score]
+    G --> J
+    H --> J
+    I --> J
+
+    J --> K[📊 Dependency Report]
+
+
+    
+🏢 Business Impact (CEO View)
+flowchart LR
+    A[Technical Issues] --> B[Developer Time Loss]
+    B --> C[Productivity Drop]
+
+    C --> D[Delayed Releases]
+    D --> E[Revenue Impact 💸]
+
+    A --> F[Security Risks]
+    F --> G[Potential Breach 🔐]
+    G --> E
+
+    E --> H[📊 Business Impact Report]
+
+    
+👥 Who Uses CO-DNA?
+flowchart TD
+    A[CO-DNA System] --> B[👨‍💻 Junior Developer]
+    A --> C[🧠 Senior Engineer]
+    A --> D[🧑‍💼 Tech Lead]
+    A --> E[💼 CEO]
+
+    B --> F[Code Explanation + Learning]
+    C --> G[Architecture + Refactor Plan]
+    D --> H[System Optimization]
+    E --> I[Business Insights + Cost]
+
+    
+🔁 Full Execution Flow
+sequenceDiagram
+    participant U as User
+    participant V as VS Code Extension
+    participant B as Backend API
+    participant A as AI Engine
+    participant S as Security Engine
+
+    U->>V: Select Code + Analyze
+    V->>B: POST /analyze-debt
+    B->>S: Run security checks
+    B->>A: Send for AI analysis
+
+    S-->>B: Security Report
+    A-->>B: AI Insights
+
+    B-->>V: Final JSON Response
+    V-->>U: Display UI + Diagrams
+
+## 🧪 How to Use CO-DNA
+
+CO-DNA is designed to work seamlessly inside your development workflow — either through the **VS Code Extension** or the **Web Interface**.
 
 ---
 
-## Local Setup
+## 🚀 1. Using the VS Code Extension
 
-### 1. Start the Backend
+### ▶️ Step 1: Open Your Project
+
+* Launch VS Code / Cursor
+* Open any code file (`.js`, `.ts`, `.py`, etc.)
+
+---
+
+### ▶️ Step 2: Open CO-DNA Panel
+
+* Click the **CO-DNA icon** in the sidebar
+  *(or use Command Palette → “Co-DNA: Analyze Technical Debt”)*
+
+---
+
+### ▶️ Step 3: Select Mode
+
+Choose from the available analysis modes:
+
+| Mode         | What it Does                                  |
+| ------------ | --------------------------------------------- |
+| 🔍 Scan      | Full technical debt + security analysis       |
+| 🧠 Explain   | Converts code into human-readable explanation |
+| ⚡ Modernize  | Refactors code into modern standards          |
+| 🔄 Rewrite   | Rewrites entire code optimally                |
+| 🌍 Translate | Converts code into another language           |
+
+---
+
+### ▶️ Step 4: Run Analysis
+
+* Click **Analyze / Send**
+* CO-DNA sends your code to the backend engine
+
+---
+
+### ▶️ Step 5: View Results
+
+You’ll get:
+
+* 📊 **Spaghetti Score (Technical Debt)**
+* 🔐 **Security Score + Risk Level**
+* ⚠️ **Detected Issues & Vulnerabilities**
+* 🧠 **AI Explanation**
+* 📉 **Business Impact (cost estimation)**
+* 🔄 **Refactor Plan**
+* 📊 **Mermaid Diagrams**:
+
+  * Architecture
+  * Function Flow
+  * Logic Flow
+
+---
+
+## 🌐 2. Using the Web Interface
+
+### ▶️ Step 1: Open Website
+
+* Go to your deployed frontend (e.g., Netlify)
+
+---
+
+### ▶️ Step 2: Paste Code
+
+* Enter your code into the editor
+
+---
+
+### ▶️ Step 3: Select Model
+
+Choose:
+
+* ⚡ **Basic Model** → Fast, rule-based analysis
+* 🧠 **Advanced Model** → AI-powered deep insights
+
+---
+
+### ▶️ Step 4: Analyze
+
+Click **Run Analysis**
+
+---
+
+### ▶️ Step 5: Explore Results
+
+View:
+
+* 📊 Scores (Debt + Security)
+* ⚠️ Issues
+* 🔐 Vulnerabilities
+* 📦 Dependency Risks
+* 📊 Visual Flowcharts
+* 🛠 Suggested Fixes
+
+---
+
+## 🔐 3. Security Features (Automatic)
+
+CO-DNA automatically scans for:
+
+* ❌ Hardcoded API keys
+* ❌ Password leaks
+* ❌ Unsafe functions (e.g., `eval`)
+* ❌ Vulnerable dependencies
+* ❌ Malicious patterns
+
+👉 Alerts are shown instantly with severity levels.
+
+---
+
+## 🔄 4. Code Rewrite Feature
+
+* Click **Rewrite**
+* CO-DNA generates:
+
+  * Cleaner architecture
+  * Better naming
+  * Optimized logic
+
+👉 Option to **replace code directly in editor**
+
+---
+
+## 🌍 5. Code Translation
+
+* Select **Translate**
+* Enter target language (e.g., Python, Java, HTML)
+
+👉 CO-DNA:
+
+* Converts logic
+* Suggests best practices for that language
+
+---
+
+## 📦 6. Dependency Intelligence
+
+* Detects:
+
+  * Outdated libraries
+  * Vulnerable packages
+* Suggests:
+
+  * Safer alternatives
+  * Better tools for your use-case
+
+---
+
+## 💼 7. Business Impact View
+
+CO-DNA converts technical issues into:
+
+* 💰 Cost estimation
+* ⏱ Time loss
+* 📉 Productivity impact
+
+👉 Useful for:
+
+* CEOs
+* Tech Leads
+* Product Managers
+
+---
+
+## 🧠 Pro Tip
+
+> 💡 Use **Scan + Rewrite together**
+
+1. Scan → Identify problems
+2. Rewrite → Fix everything instantly
+
+---
+
+## ⚡ Quick Demo Flow (For Presentation)
+
+1. Paste messy code
+2. Click **Scan**
+3. Show:
+
+   * 🔴 Scores
+   * ⚠️ Issues
+   * 🔐 Security
+4. Click **Rewrite**
+5. Show improved code
+6. Show **diagram visualization**
+
+---
+
+🚀 CO-DNA turns code into **insight, action, and impact** — instantly.
+
+
+
+## 💻 Local Setup & Installation (For Judges)
+
+To run CO-DNA locally, start the Node backend and load the VS Code extension from `co-dna/`.
+
+### 1. Start the DebtSight backend (Node)
 
 ```bash
 cd debtsight-backend
 npm install
+# Add API keys in .env as required by your setup, then:
 npm start
-# Server starts on http://localhost:3000
 ```
 
-### 2. Build the VS Code Extension
+### 2. Build and run the VS Code extension
 
 ```bash
 cd co-dna
@@ -235,52 +578,11 @@ npm install
 npm run compile
 ```
 
-### 3. Launch in VS Code
+Open `co-dna` in VS Code and press **F5** (Run Extension), or install the packaged `.vsix` if you build one.
 
-Open the `co-dna/` folder in VS Code, then press **F5** to launch the Extension Development Host. The CO-DNA panel will appear in your activity bar.
+### Repository layout
 
----
-
-## Business Model
-
-| Plan | Price | Includes |
-|---|---|---|
-| **Free** | $0 / forever | Basic debt analysis, complexity scoring, 5 scans/day |
-| **Pro** | $29 / seat / month | Full AI insights, cost modeling, security intelligence, unlimited scans |
-| **Enterprise** | Custom | All Pro features + dashboards, CI/CD integration, GitHub integration, SSO |
-
----
-
-## Roadmap
-
-- [ ] **CI/CD Integration** — Automated debt reports on every pull request; block merges above debt thresholds
-- [ ] **GitHub Native Integration** — Debt scores directly in PRs and code review workflows
-- [ ] **Team Analytics Dashboard** — Portfolio-level debt tracking across repos and teams
-- [ ] **Cloud SaaS Platform** — Hosted web app with multi-repo scanning and executive reporting
-
----
-
-## Target Audience
-
-- 👨‍💻 **Developers** — Fix debt faster with AI-powered suggestions and real-time security alerts
-- 🧑‍💼 **Engineering Managers** — Get dollar-value visibility into technical risk
-- 🏢 **Startups & Enterprises** — Reduce the hidden cost of legacy systems
-
----
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
----
-
-## License
-
-MIT License — see [LICENSE](LICENSE) for details.
-
----
-
-> *"You can't fix what you can't measure."*
-> **CO-DNA makes technical debt measurable, actionable, and visible.**
-
-⭐ **Star this repo if it helps your team!**
+| Path | Purpose |
+|------|---------|
+| `debtsight-backend/` | REST API used by the extension |
+| `co-dna/` | VS Code extension (TypeScript + React webview) |
