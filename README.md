@@ -1,83 +1,144 @@
-# 🧬 CO-DNA
+# 🧬 CO-DNA — AI-Powered Technical Debt Intelligence Platform
 
-### Kill Technical Debt — From Inside Your Editor
+### 🚀 Kill Technical Debt — From Inside Your Editor
 
-[![Hackathon](https://img.shields.io/badge/HACK'A'WAR-2026-blue)](https://msrit.edu)
-[![AI Powered](https://img.shields.io/badge/AI-LLM_Integrated-purple)]()
-[![VS Code](https://img.shields.io/badge/Platform-VS_Code-blue)]()
-
-> 🚀 Built for **HACK'A'WAR 2026** — Problem Statement: *Technical Debt Quantifier*
+[![Hackathon](https://img.shields.io/badge/HACK'A'WAR-2026-blue)]()
+[![AI Powered](https://img.shields.io/badge/AI-Hybrid_Model-purple)]()
+[![Platform](https://img.shields.io/badge/Platform-VS_Code-blue)]()
 
 ---
 
 # 🚨 The Problem
 
-Technical debt is one of the most expensive invisible problems in software engineering.
+Technical debt is **invisible but expensive**.
 
-* ⏱️ **33% of developer time** is wasted navigating poor code
-* 💸 Costs scale to **millions annually** for mid-sized teams
-* 👁️ **Zero visibility** for leadership until failure
+- ⏱️ **33% developer time wasted**
+- 💸 Millions lost annually
+- 🧠 Complex systems = zero clarity
+- 👁️ CEOs lack visibility
+- 🔐 Security risks go unnoticed
 
-👉 Teams **cannot measure**, **prioritize**, or **justify fixing** technical debt.
+> ❌ Teams cannot **measure**, **prioritize**, or **communicate** technical debt.
 
 ---
 
 # 💡 The Solution — CO-DNA
 
-CO-DNA is an **AI-powered VS Code extension** that:
+## 🧠 AI + Static Analysis + Security Intelligence
 
-✔ Quantifies technical debt in **real money ($)**
-✔ Explains complex code instantly
-✔ Transforms legacy code into modern patterns
+CO-DNA is a **full-stack AI system** that:
 
-All **without leaving your editor**.
-
----
-
-# 🚀 Core Features
-
-## 1. 🔍 Debt Scanner
-
-* AST-based code analysis
-* Detects:
-
-  * Complexity
-  * Code duplication
-  * Anti-patterns
-* Converts findings into:
-
-  * 📊 Technical Debt Score
-  * 💰 Estimated Business Cost
+✔ Quantifies technical debt in **real money ($)**  
+✔ Detects **security vulnerabilities in real-time**  
+✔ Visualizes **entire system architecture**  
+✔ Provides **CEO-level + Developer-level insights**  
+✔ Suggests **optimal rewrites & modern implementations**
 
 ---
 
-## 2. 🧠 Code Explainer
-
-* Select any code → get plain English explanation
-* Ideal for:
-
-  * New developers
-  * Large codebases
-* Reduces onboarding time by **10x**
+# 🚀 Core Capabilities
 
 ---
 
-## 3. ⚡ Code Modernizer
+## 🔍 1. Technical Debt Scanner
 
-* Converts legacy → modern code
-* Examples:
+- AST-based analysis  
+- Detects:
+  - Complexity
+  - Duplication
+  - Anti-patterns
+  - Poor architecture
 
-  * Callbacks → Async/Await
-  * Old syntax → ES6+
-* Improves maintainability instantly
+### 📊 Output:
+- Spaghetti Score
+- Complexity Metrics
+- 💰 Business Cost Estimation
 
 ---
+
+## 🔐 2. Security Intelligence Engine
+
+> 💣 **Real-time vulnerability detection**
+
+Detects:
+
+- Hardcoded API keys 🔴  
+- Password leaks 🔴  
+- SQL Injection risks 🔴  
+- `eval()` usage 🔴  
+- Unsafe dependencies 🔴  
+
+### 🧠 Bonus:
+- Detects **malicious / compromised packages**
+- Alerts based on **current threat intelligence**
+
+---
+
+## 🧠 3. AI Code Understanding
+
+- Explains code like a **senior engineer**
+- Generates:
+  - Simple explanations
+  - Flowcharts
+  - Architecture diagrams
+
+---
+
+## ⚡ 4. Code Modernization Engine
+
+- Converts legacy → modern
+- Examples:
+  - Callbacks → async/await
+  - Old JS → ES6+
+  - Bad patterns → best practices
+
+---
+
+## 🔁 5. Full Code Rewrite Engine
+
+> 💣 **One-click system upgrade**
+
+- Rewrites entire codebase optimally
+- Improves:
+  - Performance
+  - Readability
+  - Security
+
+---
+
+## 🌍 6. Multi-Language Translator
+
+- Convert code across languages
+- Suggests **best language for use-case**
+
+---
+
+## 🏢 7. Business Intelligence Layer
+
+### For CEOs / Managers:
+
+- 💰 Cost of technical debt
+- 📉 Productivity loss
+- 📊 Risk level
+- 📍 Where system is failing
+
+### For Developers:
+
+- 🔧 Fix plan
+- 🧠 Explanation
+- 📈 Priority roadmap
+
+---
+
+# 🧠 Dual Model Architecture (KEY INNOVATION)
+
+```mermaid
 
 # 🏗️ System Architecture
 
-CO-DNA is built as a **multi-layer intelligent system**:
+CO-DNA is built as a *multi-layer intelligent system*:
 
-```
+
 User (VS Code)
       ↓
 Extension (Frontend + Webview UI)
@@ -87,13 +148,13 @@ Backend API (Node.js / Express)
 AI Layer (LLMs + Custom Models)
       ↓
 Analysis Engine (AST + Metrics)
-```
+
 
 ---
 
 # 🧩 Project Structure
 
-```
+
 co-dna/
 │
 ├── co-dna/                     # VS Code Extension
@@ -117,136 +178,20 @@ co-dna/
 ├── website-launch/            # Landing page / product site
 │   ├── frontend
 │   └── marketing assets
-```
+
 
 ---
+flowchart LR
+    A[User Code] --> B{Model Selector}
 
-# ⚙️ Tech Stack
+    B --> C[Low-Level Model ⚡]
+    B --> D[High-Level AI Model 🧠]
 
-## 🖥️ Frontend (Extension)
+    C --> E[Fast Static Analysis]
+    D --> F[Deep AI Reasoning]
 
-* VS Code Extension API
-* TypeScript
-* React (Webview UI)
-* Tailwind CSS
+    E --> G[Basic Insights]
+    F --> H[Advanced Insights]
 
-## 🧠 Backend
-
-* Node.js
-* Express.js
-* REST APIs
-
-## 🤖 AI / Models
-
-* LLM APIs (Gemini / Claude / others)
-* Custom prompt engineering
-* Hybrid analysis:
-
-  * Rule-based (low-level)
-  * AI reasoning (high-level)
-
-## 🗄️ Future Scope
-
-* DynamoDB (debt tracking over time)
-* Team dashboards
-* CI/CD integration
-
----
-
-# 🧪 Local Setup
-
-## 1️⃣ Start Backend
-
-```bash
-cd debtsight-backend
-npm install
-npm start
-```
-
----
-
-## 2️⃣ Run VS Code Extension
-
-```bash
-cd co-dna
-npm install
-npm run compile
-```
-
-Then:
-
-👉 Open in VS Code
-👉 Press **F5 (Run Extension)**
-
----
-
-## 3️⃣ (Optional) Run Models
-
-### Low-Level Model
-
-```bash
-cd model-low-level
-# run analysis engine
-```
-
-### High-Level Model
-
-```bash
-cd model-high-level
-# run AI-powered reasoning
-```
-
----
-
-## 4️⃣ Run Website
-
-```bash
-cd website-launch
-npm install
-npm run dev
-```
-
----
-
-# 🎯 Key Innovation
-
-CO-DNA bridges the gap between:
-
-| Technical View | Business View        |
-| -------------- | -------------------- |
-| Code Smells    | 💰 Dollar Impact     |
-| Complexity     | 📉 Productivity Loss |
-| Refactoring    | 📈 ROI Justification |
-
----
-
-# 📈 Impact
-
-* Makes technical debt **visible**
-* Helps teams **prioritize fixes**
-* Enables **data-driven engineering decisions**
-* Saves **millions in long-term cost**
-
----
-
-# 🔮 Future Roadmap
-
-* 📊 Team dashboards & analytics
-* 🔄 GitHub / CI integration
-* 🧠 Fine-tuned custom models
-* 🏢 Enterprise SaaS version
-
----
-
-# 👨‍💻 Team
-
-Built with passion during **HACK'A'WAR 2026**
-
----
-
-# 🏁 Final Note
-
-> “You can’t fix what you can’t measure.”
-> CO-DNA makes technical debt measurable, actionable, and impossible to ignore.
-
----
+    G --> I[Final Report]
+    H --> I
