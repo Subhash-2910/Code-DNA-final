@@ -1,0 +1,3 @@
+Status: 200
+Response length: 1261
+Got AI unavailable fallback!

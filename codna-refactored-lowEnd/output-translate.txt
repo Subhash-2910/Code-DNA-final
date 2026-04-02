@@ -1,0 +1,7 @@
+200 OK
+{
+  "detected_language": "Unknown",
+  "translated_to": "JavaScript",
+  "translated_code": "// AI unavailable - fallback response\nconsole.log('hello');",
+  "warning": "AI translation failed, showing fallback"
+}

@@ -1,0 +1,121 @@
+{
+  "name": "co-dna",
+  "displayName": "Co-DNA",
+  "description": "AI-powered code analysis: Scan for technical debt, Explain any codebase, Translate between languages — powered by the Co-DNA backend on Render.",
+  "version": "2.0.0",
+  "publisher": "debtsight",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": ["Linters", "Other", "Education"],
+  "keywords": ["technical debt", "security", "refactor", "explain", "translate", "AI", "mermaid", "Co-DNA"],
+  "activationEvents": [],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "Co-DNA",
+      "properties": {
+        "co-dna.apiBaseUrl": {
+          "type": "string",
+          "default": "http://localhost:8000",
+          "description": "Co-DNA backend base URL (no trailing slash). Defaults to local Python server."
+        },
+        "co-dna.modelLabel": {
+          "type": "string",
+          "default": "Amazon Nova · DebtSight",
+          "description": "Label shown in the panel header."
+        }
+      }
+    },
+    "commands": [
+      {
+        "command": "co-dna.open",
+        "title": "Co-DNA: Open Panel",
+        "category": "Co-DNA",
+        "icon": "$(beaker)"
+      },
+      {
+        "command": "co-dna.analyzeDebt",
+        "title": "Co-DNA: Scan — Analyze Technical Debt",
+        "category": "Co-DNA",
+        "icon": "$(pulse)"
+      },
+      {
+        "command": "co-dna.explainCode",
+        "title": "Co-DNA: Explain Code",
+        "category": "Co-DNA",
+        "icon": "$(comment-discussion)"
+      },
+      {
+        "command": "co-dna.translateCode",
+        "title": "Co-DNA: Translate Code",
+        "category": "Co-DNA",
+        "icon": "$(sync)"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "co-dna-sidebar",
+          "title": "Co-DNA",
+          "icon": "media/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "co-dna-sidebar": [
+        {
+          "id": "co-dna.welcomeView",
+          "name": "Tools",
+          "type": "tree"
+        }
+      ]
+    },
+    "viewsWelcome": [
+      {
+        "view": "co-dna.welcomeView",
+        "contents": "AI-powered codebase analysis & translation.\n\n[Open Co-DNA Dashboard](command:co-dna.open)\n\n[Scan for Technical Debt](command:co-dna.analyzeDebt)\n\n[Explain Active Code](command:co-dna.explainCode)\n\n[Translate Active Code](command:co-dna.translateCode)"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        { "command": "co-dna.open",         "group": "navigation@1", "when": "editorTextFocus" },
+        { "command": "co-dna.analyzeDebt",  "group": "navigation@2", "when": "editorTextFocus" },
+        { "command": "co-dna.explainCode",  "group": "navigation@3", "when": "editorTextFocus" },
+        { "command": "co-dna.translateCode","group": "navigation@4", "when": "editorTextFocus" }
+      ],
+      "commandPalette": [
+        { "command": "co-dna.open" },
+        { "command": "co-dna.analyzeDebt" },
+        { "command": "co-dna.explainCode" },
+        { "command": "co-dna.translateCode" }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run package",
+    "compile": "npm run check-types && npm run lint && node esbuild.js",
+    "watch": "npm-run-all -p watch:*",
+    "watch:esbuild": "node esbuild.js --watch",
+    "watch:tsc": "tsc --noEmit --watch --project tsconfig.json",
+    "package": "npm run check-types && npm run lint && node esbuild.js --production",
+    "compile-tests": "tsc -p . --outDir out",
+    "watch-tests": "tsc -p . -w --outDir out",
+    "pretest": "npm run compile-tests && npm run compile && npm run lint",
+    "check-types": "tsc --noEmit",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.90.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "typescript-eslint": "^8.56.1",
+    "eslint": "^9.39.3",
+    "esbuild": "^0.27.3",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^5.9.3",
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}

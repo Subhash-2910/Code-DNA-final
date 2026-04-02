@@ -1,0 +1,68 @@
+200 OK
+{
+  "spaghetti_score": 19,
+  "security_score": 100,
+  "risk_level": "LOW",
+  "complexity_metrics": {
+    "lines_of_code": 1,
+    "number_of_functions": 0,
+    "nesting_depth": 0,
+    "cyclomatic_complexity": 1
+  },
+  "complexity_score": 10,
+  "duplication_percentage": 0,
+  "dependency_risk": "unknown",
+  "test_coverage": {
+    "has_tests": false,
+    "coverage_estimate": 0,
+    "test_files_count": 0,
+    "code_files_count": 0
+  },
+  "issues": [],
+  "security_issues": [],
+  "explanation": "AI unavailable",
+  "architecture_diagram": "",
+  "function_flow_diagram": "",
+  "logic_flow_diagram": "",
+  "function_map": [],
+  "flowchart": "",
+  "refactor_plan": [],
+  "business_impact": {
+    "estimated_effort_hours": 5,
+    "estimated_cost": 250,
+    "severity": "Low"
+  },
+  "category_summary": {
+    "code_quality": 0,
+    "dependency_risk": 0,
+    "architecture": 0,
+    "testing": 1
+  },
+  "prioritized_roadmap": {
+    "high_priority": [],
+    "medium_priority": [],
+    "low_priority": []
+  },
+  "prioritized_action_plan": [],
+  "security_analysis": {
+    "security_score": 100,
+    "vulnerable_dependencies": [],
+    "outdated_dependencies": [],
+    "risky_patterns": [],
+    "threat_alerts": []
+  },
+  "dependency_analysis": {
+    "provided": false,
+    "number_of_dependencies": 0,
+    "outdated_dependencies": [],
+    "vulnerable_dependencies": [],
+    "dependency_risk": "unknown",
+    "dependencies_list": []
+  },
+  "threat_intelligence": {
+    "threat_alerts": []
+  },
+  "dependency_suggestions": [],
+  "security_fixes": [],
+  "rewritten_code_option": true
+}

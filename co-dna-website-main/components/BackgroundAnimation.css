@@ -1,0 +1,65 @@
+.bg-animation-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 1000px;
+  z-index: 1;
+  pointer-events: none;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.starfield-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1; /* Above body background, below content */
+  pointer-events: none;
+}
+
+/* Framer Exact Orb Construction */
+.crystal-center {
+  position: absolute;
+  top: 15vw;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;  /* Scaled up slightly for impact */
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  filter: blur(25px); /* Increased blur slightly for smoother blending */
+}
+
+.framer-orb-outer {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background: linear-gradient(229deg, rgb(223, 122, 254) 13%, rgba(201, 110, 240, 0) 35%, rgba(164, 92, 219, 0) 64%, rgb(129, 74, 200) 88%);
+  animation: orbRotateOuter 15s infinite linear;
+}
+
+.framer-orb-inner {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  background: linear-gradient(141deg, rgb(223, 122, 254) 13%, rgba(201, 110, 240, 0) 35%, rgba(164, 92, 219, 0) 64%, rgb(129, 74, 200) 88%);
+  animation: orbRotateInner 20s infinite linear;
+}
+
+@keyframes orbRotateOuter {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes orbRotateInner {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
