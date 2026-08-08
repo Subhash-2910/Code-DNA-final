@@ -593,23 +593,12 @@ Open `co-dna` in VS Code and press **F5** (Run Extension), or install the packag
 | `co-dna/` | VS Code extension (TypeScript + React webview) |
 
 ### Screenshots of extension in use:
-<table>
-  <tr>
-    <td>
-      <img width="300" alt="Architecture Diagram 1" src="https://github.com/user-attachments/assets/12a20427-5245-4eec-afbc-5a3aa242584b" />
-    </td>
-    <td>
-      <img width="300" alt="Architecture Diagram 2" src="https://github.com/user-attachments/assets/4634ae84-9396-4b38-a7d6-dd032dc3dcac" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img width="300" alt="Architecture Diagram 3" src="https://github.com/user-attachments/assets/d3348ac4-b392-4206-939e-0744fc658dc1" />
-    </td>
-    <td>
-      <img width="300" alt="Architecture Diagram 3" src="https://github.com/user-attachments/assets/6f04cb82-1876-4b46-9094-4fb406b56adc" />
-    </td>
-  </tr>
-</table>
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/12a20427-5245-4eec-afbc-5a3aa242584b" width="48%" />
+  <img src="https://github.com/user-attachments/assets/4634ae84-9396-4b38-a7d6-dd032dc3dcac" width="48%" />
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d3348ac4-b392-4206-939e-0744fc658dc1" width="48%" />
+  <img src="https://github.com/user-attachments/assets/6f04cb82-1876-4b46-9094-4fb406b56adc" width="48%" />
+</p>
 
