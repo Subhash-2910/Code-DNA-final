@@ -602,3 +602,11 @@ Open `co-dna` in VS Code and press **F5** (Run Extension), or install the packag
   <img src="https://github.com/user-attachments/assets/6f04cb82-1876-4b46-9094-4fb406b56adc" width="48%" />
 </p>
 
+
+### Built as part of Hack'a'War 24hr Hackathon 
+## 👥 Team Members
+
+- **Subhash Kashyap K H** - [github](https://github.com/Subhash-2910) 
+- **Chiranthan T R** - [github](https://github.com/moduloous) 
+- **Rohan N Karadigudd** - [github](https://github.com/RohanNK86)
+- **Nikhil R** - [github](https://github.com/Nikhil-r-projects)
