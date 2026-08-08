@@ -2,7 +2,7 @@
 
 ### 🚀 Kill Technical Debt — From Inside Your Editor
 
-[Visit the website README file](https://github.com/Subhash-2910/Code-DNA-final/blob/main/co-dna-website-main/README.md)
+[Visit the website README file](https://github.com/Subhash-2910/Co-DNA/blob/main/co-dna-website-main/README.md)
 
 [![Hackathon](https://img.shields.io/badge/HACK'A'WAR-2026-blue)]()
 [![AI Powered](https://img.shields.io/badge/AI-Hybrid_Model-purple)]()
