@@ -2,7 +2,7 @@
 
 The product website and browser-based workspace for **CO-DNA**, an AI-powered code intelligence platform. It introduces the VS Code extension, lets users try code analysis in the browser, and provides authenticated dashboard and account experiences.
 
-[View the CO-DNA extension repository](https://github.com/Subhash-2910/Code-DNA-final)
+[View the CO-DNA extension repository](https://github.com/Subhash-2910/Co-DNA/tree/main)
 
 ## What it includes
 
